@@ -1,0 +1,36 @@
+.services {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    background: var(--service-bcg);
+}
+
+.services__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.services__subtitle {
+    color: var(--description-color);
+    font-weight: 800;
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+
+.services__title {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.services__description {
+    max-width: 42rem;
+    text-align: center;
+    color: var(--description-color);
+    font-size: 0.925rem;
+}

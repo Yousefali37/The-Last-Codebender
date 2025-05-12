@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "title": "Brew's of anarchy",
+        "description": "Brew's of anarchy is a vibrant online platform for coffee enthusiasts to share, learn, and connect. Whether you're a coffee expert or just starting your coffee journey, this community has something for everyone.",
+        "tags": ["HTML5", "CSS3", "JavaScript", "React Js", "Bootstrap", "Material UI", "Routing", "JSON"],
+        "thumbnail": "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916187/Screenshot_2025-05-05_155343_isydzt.png",
+        "cover": "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916202/Screenshot_2025-05-05_155520_w7tk2z.png",
+        "images": [
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916201/Screenshot_2025-05-05_204914_forjib.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916200/Screenshot_2025-05-05_204907_ltmgxw.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916200/Screenshot_2025-05-05_204907_ltmgxw.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916195/Screenshot_2025-05-05_155624_mkzuyo.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916192/Screenshot_2025-05-05_155427_udlejd.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916193/Screenshot_2025-05-05_155531_g1srxu.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916204/Screenshot_2025-05-05_155634_a08zif.png"
+        ],
+        "github": "https://github.com/Yousefali37/Coffee-Community",
+        "drive": "https://drive.google.com/drive/folders/1dAXMaHBrfZQDDxvpypuQQdMGA0WqtcQi",
+        "video": "https://vimeo.com/1082465306/6eb38a6a5e"
+    },
+    {
+        "id": 2,
+        "title": "Votezilla",
+        "description": "Votezilla is a comprehensive digital voting platform designed to streamline the voting process and facilitate informed decision-making in a digital democracy environment",
+        "tags": ["HTML5", "CSS3", "JavaScript", "React Js", "Routing", "Bootstrap", "Material UI", "Api Integration", "Hardware Fingerprint"],
+        "thumbnail": "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916897/Screenshot_2025-04-24_113520_pdls8h.png",
+        "cover": "",
+        "images": [
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916897/Screenshot_2025-04-24_113601_hfdp6s.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916898/Screenshot_2025-04-24_113625_wfijdp.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916897/Screenshot_2025-04-24_113553_ggcrfe.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916909/Screenshot_2025-04-24_113732_nwqjtw.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916909/Screenshot_2025-04-24_113644_bocqe6.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916903/Screenshot_2025-04-24_113831_fbsnbs.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916905/Screenshot_2025-04-24_113937_bgzqdv.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916903/Screenshot_2025-04-24_113847_dzbpml.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916901/Screenshot_2025-04-24_113901_nn3ujr.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916898/Screenshot_2025-04-24_113709_w91pm4.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746916898/Screenshot_2025-04-24_113745_lmgm7g.png"
+        ],
+        "github": "https://github.com/Yousefali37/Votezilla",
+        "drive": "https://drive.google.com/drive/folders/1WRDxiZgErgeAY42plfE4AYaZdt5Mh3J0",
+        "video": "https://vimeo.com/1082885752/f89b4a3775"
+    },
+    {
+        "id": 3,
+        "title": "Todo or not Todo",
+        "description": "is a modern, user-friendly task management web application designed to help users organize, track, and prioritize their daily tasks efficiently. Built with HTML5, CSS3, and JavaScript, the application leverages Bootstrap and Material UI for a sleek, responsive, and visually appealing interface that works seamlessly across devices. The app integrates with external APIs to enhance functionality, allowing users to create, edit, and delete tasks, set deadlines, and categorize tasks with tags. With a focus on simplicity and performance, this project showcases dynamic front-end development and effective API integration for real-time task management. Explore the codebase and live demo to see it in action!",
+        "tags": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "JavaScript", "Material UI","Api Integration"],
+        "thumbnail": "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915898/Screenshot_2025-05-02_151715_s3uxvr.png",
+        "cover": "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915898/Screenshot_2025-05-02_151715_s3uxvr.png",
+        "images": [
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915898/Screenshot_2025-05-02_151655_fpauxd.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915899/Screenshot_2025-05-02_151647_mtlvfz.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915901/Screenshot_2025-05-02_151803_yfpxxs.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915901/Screenshot_2025-05-02_151812_wscoeh.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915901/Screenshot_2025-05-02_151743_faiyb5.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915900/Screenshot_2025-05-02_151752_f9wxnf.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915898/Screenshot_2025-04-03_110108_zly0fu.png"
+        ],
+        "github": "",
+        "drive": "https://drive.google.com/drive/folders/1zTNvRUnnfARVer7JROwE9UHR_3A6NaZO",
+        "video": ""
+    },
+    {
+        "id": 4,
+        "title": "The Gang Encrypts a Message",
+        "description": "The Gang Encrypts a Message is a university project designed to showcase various classical encryption algorithms that have been instrumental in the development of modern cryptography. The application provides interactive tools for encrypting and decrypting messages using different techniques, along with educational content explaining the mathematical principles behind each method.",
+        "tags": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "JavaScript", "FontAwsome", "Api Integration", "Routing"],
+        "thumbnail": "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915902/Screenshot_2025-05-05_175416_lqdoyu.png",
+        "cover": "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915902/Screenshot_2025-05-05_175416_lqdoyu.png",
+        "images": [
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915902/Screenshot_2025-05-05_175445_l2kng1.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915903/Screenshot_2025-05-05_175503_rqqnqm.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915898/Screenshot_2025-05-05_175528_ewolyb.png",
+            "https://res.cloudinary.com/dyq71xf7z/image/upload/v1746915899/Screenshot_2025-05-05_175551_fglvik.png"
+        ],
+        "github": "https://github.com/Yousefali37/The-Gang-Encrypts-a-Message-",
+        "drive": "https://drive.google.com/drive/folders/1dW7sCJTRNGoRP0LtsAscyTKP7cE12VTO",
+        "video": "https://drive.google.com/file/d/1Gg7-HedyPK07F_QfFQmhWUYNLljj_kes/view?usp=drive_link"
+    }
+]

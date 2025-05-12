@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "category": "skill",
+        "title": "HTML5",
+        "progress": 70
+    },
+    {
+        "id": 2,
+        "category": "skill",
+        "title": "CSS3",
+        "progress": 70
+    },
+    {
+        "id": 3,
+        "category": "skill",
+        "title": "JavaScript",
+        "progress": 70
+    },
+    {
+        "id": 4,
+        "category": "skill",
+        "title": "React",
+        "progress": 70
+    },
+    {
+        "id": 5,
+        "category": "skill",
+        "title": "Bootstrap",
+        "progress": 70
+    },
+    {
+        "id": 6,
+        "category": "skill",
+        "title": "Material UI",
+        "progress": 70
+    },
+    {
+        "id": 7,
+        "category": "experience",
+        "title": "ITI - Front End Web Development Using React",
+        "date": "07/2024 - 08/2024",
+        "description": "Completed an intensive course focused on building modern, responsive web applications using React.js. Gained hands-on experience with React components, state management, hooks, and integrating APIs. Developed projects showcasing proficiency in HTML, CSS, JavaScript, and React best practices."
+    },
+    {
+        "id": 8,
+        "category": "education",
+        "degree": "Bachelor’s Degree in Computer Science",
+        "place": "MTI",
+        "date": "2021-2025",
+        "location": "Cairo, Egypt",
+        "description": "Relevant Coursework: Web Development, Data Structures, Algorithms, Database Systems, Software Engineering"
+    },
+    {
+        "id": 9,
+        "category": "education",
+        "degree": "Bachelor’s Degree in Computer Science",
+        "place": "MTI",
+        "date": "2021-2025",
+        "location": "Cairo, Egypt",
+        "description": "Relevant Coursework: Web Development, Data Structures, Algorithms, Database Systems, Software Engineering"
+    }
+]

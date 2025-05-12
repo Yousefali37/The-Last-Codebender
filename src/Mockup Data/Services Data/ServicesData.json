@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Custom Web Development",
+        "desc": "Building fast, secure, and scalable web applications tailored to your brand and business goals.",
+        "icon": "faCode",
+        "color": "#8060cf",
+        "backgroundColor": "#e6dff5"
+    },
+    {
+        "id": 2,
+        "title": "Responsive & Mobile-First Design",
+        "desc": "Creating seamless, pixel-perfect experiences across all devices — from mobile phones to desktops.",
+        "icon": "faMobileScreen",
+        "color": "#2fb4ae",
+        "backgroundColor": "#d5f0ef"
+    },
+    {
+        "id": 3,
+        "title": "UI/UX to Code Conversion",
+        "desc": "Bringing Figma or Adobe XD designs to life with clean, accessible, and maintainable code.",
+        "icon": "faFigma",
+        "color": "#c71f1f",
+        "backgroundColor": "#f4d2d2"
+    },
+    {
+        "id": 4,
+        "title": "Robust API Integration",
+        "desc": "Seamlessly integrating third-party services and RESTful APIs for smarter, connected applications.",
+        "icon": "faLink",
+        "color": "#2558ab",
+        "backgroundColor": "#d3deee"
+    },
+    {
+        "id": 5,
+        "title": "Version Control with Git & GitHub",
+        "desc": "Utilizing Git workflows and GitHub best practices to manage code and collaborate efficiently.",
+        "icon": "faGithub",
+        "color": "#ffcd00",
+        "backgroundColor": "#fff5cc"
+    },
+    {
+        "id": 6,
+        "title": "Performance Optimization",
+        "desc": "Improving speed, accessibility, and SEO through advanced front-end performance tuning.",
+        "icon": "FaTachometerAlt",
+        "color": "#3c873a",
+        "backgroundColor": "#dff3e3"
+    },
+    {
+        "id": 7,
+        "title": "Code Review & Consulting",
+        "desc": "Providing expert feedback on code quality, architecture, and performance for better maintainability.",
+        "icon": "FaComments",
+        "color": "#ff6f61",
+        "backgroundColor": "#ffe1dd"
+    }
+]

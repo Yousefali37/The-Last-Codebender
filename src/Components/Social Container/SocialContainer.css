@@ -1,0 +1,36 @@
+.social-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 1rem;
+}
+
+.social-container__link {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 40px 40px 40px 0px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: var(--social-borderColor);
+    transition: all 0.5s ease-in-out;
+}
+
+.social-container__link:hover {
+    transform: scale(1.1);
+    background: var(--social-borderColor);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.social-container__icon {
+    font-size: 1.4rem;
+    transition: color 0.3s ease;
+}

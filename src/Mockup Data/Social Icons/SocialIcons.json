@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Github",
+        "icon": "faGithub",
+        "link": "https://github.com/Yousefali37",
+        "color": "#2558ab"
+    }, 
+    {
+        "title": "Gmail",
+        "icon": "faAt",
+        "link": "https://yousef.kobe24@gmail.com",
+        "color": "#b6317a"
+    }
+]
