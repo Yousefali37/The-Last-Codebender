@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './Home.css';
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -62,7 +63,7 @@ function Home() {
                         Building simple and beautiful things for complex interfaces is what I enjoy most about my work.
                         I am also interested in crafting beautiful minimal products and exploring new worlds.
                     </motion.p>
-                    <motion.div variants={itemVariants}>
+                    <motion.div variants={itemVariants} className='home__social-container'>
                         <SocialContainer />
                     </motion.div>
                     <motion.div
@@ -70,6 +71,7 @@ function Home() {
                         initial="rest"
                         whileHover="hover"
                         whileTap="tap"
+                        className='home__cta-container'
                     >
                         <Link to="#projects" className="home__cta">
                             See my work <span><FontAwesomeIcon icon={faArrowRight} /></span>
@@ -86,6 +88,7 @@ function Home() {
                         src="https://placehold.co/600x400"
                         alt="Yousef Ali"
                         variants={itemVariants}
+                        className='home__image'
                     />
                 </motion.div>
             </motion.div>

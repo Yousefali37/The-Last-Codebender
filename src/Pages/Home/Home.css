@@ -83,3 +83,48 @@
 .home__image-container:hover {
     border-color: var(--header-color);
 }
+
+@media screen and (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem 0rem;
+    }
+
+    .home__content {
+        min-width: 100%;
+        text-align: center;
+    }
+
+    .home__greeting {
+        width: 100%;
+        font-size: 0.875rem;
+    }
+
+    .home__name {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .home__image-container {
+        width: 85%;
+        height: auto;
+        border-radius: 50px 50px 50px 50px;
+    }
+
+    .home__image-container .home__image {
+        overflow-x: hidden;
+    }
+
+    .home__social-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home__cta-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

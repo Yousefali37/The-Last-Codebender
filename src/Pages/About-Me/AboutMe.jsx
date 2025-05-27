@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Tab, Tabs } from '@mui/material';
 import './AboutMe.css';
 import data from '../../Mockup Data/About Data/AboutData.json';
@@ -85,21 +86,23 @@ function AboutMe() {
                     <motion.p className='about__text' variants={itemVariants}>
                         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout...
                     </motion.p>
-                    <motion.div variants={itemVariants}>
-                        <Tabs
-                            value={value}
-                            onChange={handleChange}
-                            textColor="secondary"
-                            indicatorColor="secondary"
-                            aria-label="about section tabs"
-                            className="about__tabs"
-                        >
-                            <Tab value="whoami" label="Who Am I" className="about__tab" />
-                            <Tab value="skill" label="Skills" className="about__tab" />
-                            <Tab value="education" label="Education" className="about__tab" />
-                            <Tab value="experience" label="Experience" className="about__tab" />
-                        </Tabs>
-                    </motion.div>
+                    <div className='container container-fluid'>
+                        <motion.div variants={itemVariants}>
+                            <Tabs
+                                value={value}
+                                onChange={handleChange}
+                                textColor="secondary"
+                                indicatorColor="secondary"
+                                aria-label="about section tabs"
+                                className="about__tabs"
+                            >
+                                <Tab value="whoami" label="Who Am I" className="about__tab" />
+                                <Tab value="skill" label="Skills" className="about__tab" />
+                                <Tab value="education" label="Education" className="about__tab" />
+                                <Tab value="experience" label="Experience" className="about__tab" />
+                            </Tabs>
+                        </motion.div>
+                    </div>
 
                     <AnimatePresence mode="wait">
                         {value === "whoami" && (
@@ -195,10 +198,10 @@ function AboutMe() {
                                         <motion.p className="about__experience-title" variants={itemVariants}>
                                             {e.title}
                                         </motion.p>
-                                        <motion.p className="about__experience-date text-muted" variants={itemVariants}>
+                                        <motion.p className="about__experience-date " variants={itemVariants}>
                                             {e.date}
                                         </motion.p>
-                                        <motion.p className="about__experience-description text-muted" variants={itemVariants}>
+                                        <motion.p className="about__experience-description " variants={itemVariants}>
                                             {e.description}
                                         </motion.p>
                                     </motion.div>
@@ -226,13 +229,13 @@ function AboutMe() {
                                             {e.degree}
                                         </motion.p>
                                         <motion.div className='d-flex justify-content-between align-items-center' variants={itemVariants}>
-                                            <p className="about__education-place text-muted">{e.place}</p>
-                                            <p className="about__education-date text-muted">{e.date}</p>
+                                            <p className="about__education-place ">{e.place}</p>
+                                            <p className="about__education-date ">{e.date}</p>
                                         </motion.div>
-                                        <motion.p className="about__education-location text-muted" variants={itemVariants}>
+                                        <motion.p className="about__education-location " variants={itemVariants}>
                                             {e.location}
                                         </motion.p>
-                                        <motion.p className="about__education-description text-muted" variants={itemVariants}>
+                                        <motion.p className="about__education-description " variants={itemVariants}>
                                             {e.description}
                                         </motion.p>
                                     </motion.div>

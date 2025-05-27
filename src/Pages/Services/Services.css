@@ -34,3 +34,11 @@
     color: var(--description-color);
     font-size: 0.925rem;
 }
+
+@media screen and (max-width: 768px) {
+    .services__title {
+        width: 100%;
+        font-size: 1.75rem;
+        text-align: center;
+    }
+}

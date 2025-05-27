@@ -65,7 +65,7 @@
 }
 
 .about__section--whoami {
-    background-color: #f9f9f9;
+    background-color: var(--secondary-background);
     border-radius: 12px;
     padding: 2rem;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
@@ -76,7 +76,10 @@
     font-weight: 700;
     margin-bottom: 1.5rem;
     text-align: center;
-    color: #222;
+}
+
+.about__skill-title {
+    color: var(--description-color);
 }
 
 .about__whoami-content {
@@ -88,12 +91,10 @@
 .about__whoami-text {
     font-size: 1rem;
     line-height: 1.8;
-    color: #444;
 }
 
 .about__whoami-label {
     font-weight: 600;
-    color: #111;
 }
 
 .about__whoami-link {
@@ -153,6 +154,7 @@
     padding: 1.5rem 1.5rem;
     text-align: start;
     border-radius: 0.875rem;
+    color: var(--description-color) !important;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
@@ -163,7 +165,7 @@
     border-bottom-left-radius: 2px;
 }
 
-.ed Sade__item-right,
+.education__item-right,
 .experience__item-right {
     position: relative;
     align-self: flex-start;
@@ -202,6 +204,7 @@
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.4;
+    color: var(--header-color);
 }
 
 .about__progress-bar {
@@ -224,4 +227,101 @@
     font-size: 0.85rem;
     color: #666;
     font-weight: 500;
+}
+
+
+@media screen and (max-width: 768px) {
+    .about__section {
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .about__section--education {
+        width: 100%;
+        display: block;
+    }
+
+    .education__item-right,
+    .education__item-left {
+        width: 100%;
+        align-self: center;
+        margin-left: 0;
+    }
+
+    .about__education-item {
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .about__section--experience {
+        width: 100%;
+        display: block;
+    }
+
+    .about__education-degree,
+    .about__experience-title {
+        font-size: 1.125rem;
+    }
+
+    .about__progress-bar {
+        width: 100%;
+    }
+
+    .about__progress-text {
+        right: 10px;
+        top: -20px;
+    }
+
+    .about__whoami-heading {
+        font-size: 1.75rem;
+    }
+
+    .about__whoami-text {
+        font-size: 0.875rem;
+    }
+
+    .about__whoami-label {
+        font-size: 0.875rem;
+    }
+
+    .about__whoami-link {
+        font-size: 0.875rem;
+    }
+}
+
+.education__item-right::after,
+.education__item-left::after,
+.experience__item-right::after,
+.about__section--education::after,
+.about__section--experience::after {
+    display: none;
+}
+
+.about__education-item,
+.about__experience-item {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about__whoami-heading {
+    font-size: 1.5rem;
+}
+
+.about__whoami-text {
+    font-size: 0.875rem;
+}
+
+.about__whoami-label {
+    font-size: 0.875rem;
+}
+
+.about__whoami-link {
+    font-size: 0.875rem;
+}
+
+.about__section--experience {
+    padding: 2rem 0;
 }
